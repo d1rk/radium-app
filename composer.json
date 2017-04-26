@@ -1,0 +1,24 @@
+{
+    "name": "d1rk/radium-app",
+    "description": "radium based li₃ application distribution, including overarching directory layout, starting application, and a copy of the lithium framework.",
+    "keywords": ["radium", "lithium", "li3"],
+    "homepage": "http://li3.me",
+    "license": "BSD-3-Clause",
+    "type": "project",
+    "authors": [
+        {"name": "Union of RAD"},
+        {
+            "name": "d1rk",
+            "homepage": "https://github.com/d1rk"
+        }
+    ],
+    "config": {
+        "vendor-dir": "libraries"
+    },
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5.0",
+        "unionofrad/lithium": "^1.1",
+        "d1rk/radium": "^1.1"
+    }
+}
