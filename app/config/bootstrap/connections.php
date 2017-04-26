@@ -41,11 +41,11 @@ use lithium\data\Connections;
 /**
  * Uncomment this configuration to use MongoDB as your default database.
  */
-// Connections::add('default', [
-// 	'type' => 'MongoDb',
-// 	'host' => 'localhost',
-// 	'database' => 'my_app'
-// ]);
+Connections::add('default', [
+	'type' => 'MongoDb',
+	'host' => 'localhost',
+	'database' => 'my_app'
+]);
 
 /**
  * Uncomment this configuration to use CouchDB as your default database.
