@@ -19,7 +19,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.0",
-        "unionofrad/lithium": "^1.1",
+        "unionofrad/lithium": "1.1.*",
         "d1rk/radium": "^1.1"
     }
 }
