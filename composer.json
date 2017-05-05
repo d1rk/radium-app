@@ -22,6 +22,12 @@
     },
     "prefer-stable": true,
     "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/d1rk/handlebars.php"
+        }
+    ],
     "require": {
         "php": ">=5.5.0",
         "unionofrad/lithium": "1.1.*",
